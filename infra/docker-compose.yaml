@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: olgakom/api_yamdb:v2.05.2023 #latest
+    image: olgakom/api_yamdb:latest # v2.05.2023 
     restart: always
     volumes:
       - static_value:/app/static/
