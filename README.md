@@ -1,6 +1,3 @@
-https://github.com/Olga-koml/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
-![example workflow](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg)
-
 ![example workflow](https://github.com/Olga-koml/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 # Проект YaMDb
