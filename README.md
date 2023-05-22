@@ -2,8 +2,11 @@
 
 # Проект YaMDb
 
+```http://158.160.40.3/redoc/```
+
 Проект YaMDb собирает отзывы пользователей на различные произведения такие как
 фильмы, книги и музыка.
+
 
 ## Описание проекта:
 
@@ -89,6 +92,11 @@ docker compose exec web python manage.py migrate
 
 ```
 docker compose exec web python manage.py load_csv
+```
+или 
+
+```
+docker compose exec web python manage.py loaddata fixtures.json 
 ```
 
 * 5. Загрузите статику:
