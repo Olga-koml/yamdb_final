@@ -59,7 +59,7 @@ jobs:
           script: |
             cd api_yamdb_sprint16/
             sudo docker compose stop
-            sudo docker compose rm web
+            sudo docker compose rm -f web
             touch .env
             echo SECRET_KEY_APP=${{ secrets.SECRET_KEY_APP }} >> .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
